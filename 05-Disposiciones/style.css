@@ -5,9 +5,9 @@
 
 .galeria {
     display: flex;
-    
+    flex-wrap: wrap;
 }
 
-.imagen-galeria {
+.galeria img {
     width: 300px;
 }
