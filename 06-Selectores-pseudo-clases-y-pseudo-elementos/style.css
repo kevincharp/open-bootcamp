@@ -1,18 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover {
+    background-color: green;
+    color: white;
 }
 .btn::before {
-    content:"Pasa por encima";
+    content: "Pasa por encima"
 }
-
-.btn:hover {
-    color: white;
-    background-color: green;
-}
-
 .btn:hover::before {
-    content: "¡Hecho!";
+    content: "¡Hecho!"
 }
-
-
